@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Daum 지도 시작하기</title>
+</head>
+<body>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9c8f4b16a0c59154c786a22345c07048&libraries=services,clusterer,drawing"></script>
+	
+	<div id="map" style="width:500px;height:400px;"></div>
+
+
+
+	<script>
+	
+		$(document).ready(function(){		
+		
+		//var i = document.getElementById('txtAdr').value;
+				
+		var geocoder = new daum.maps.services.Geocoder();
+				
+		var callback = function(result, status) {
+			if (status === daum.maps.services.Status.OK) {
+				console.log(result);
+				$('#latitude').val(result[0].x)
+				$('#longtitude').val(result[0].y)
+				
+				var xx = result[0].x
+				var yy = result[0].y
+				
+
+				var container = document.getElementById('map');
+				var options = {
+					center: new daum.maps.LatLng(yy, xx),
+					level: 3
+				};
+
+				var map = new daum.maps.Map(container, options);
+				
+			}
+		};		
+
+		geocoder.addressSearch('반포동 105 - 1', callback, 1);		
+		
+	})
+
+		
+	</script>	
+</body>
+</html>

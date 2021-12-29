@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* 타이틀글씨 */
+.title{
+	color: #ff4d00;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+/* 식당이름아래 라인 */
+#info{
+ 	border-bottom: 5px solid #ff4d00; 
+	/* border-bottom: 1px solid #ff4d00; */
+	/* background-color: red; */
+}
+/* 상단라인 */
+#reviewline{
+	border-bottom: 1px solid #ff4d00;
+}
+#reviewline2{
+	border-bottom: 1px solid #555555;
+}
+.review{
+	color: #ff4d00;
+	/* background-color: #FFBB00;
+	opacity: 0.3; */
+}
+.review2{
+	color: #555555;
+}
+/* 공통적용 */
+textarea{
+	resize : none;
+}
+/* 식당상세 div 정렬 */
+.rescover{
+	position: relative;
+}
+/* 식당테이블이랑 지도랑 */
+.resdiv{
+	display: block;
+	float: left;
+}
+/* 지도 */
+#map{
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+	z-index: 0;
+}
+/* .ptOnly{
+	display: hidden;
+}
+.writer{
+	display: hidden;
+}
+.viewer{
+	display: inline;
+} */

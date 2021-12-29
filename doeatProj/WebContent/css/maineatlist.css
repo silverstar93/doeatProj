@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.eatlistHome > img{
+	margin: 10px;
+}
+.eatlistSrch{
+	width: 600px;
+	left: 50%;
+	margin-left: 90px;
+}
+.eatlistRcmm > img{
+	width: 180px;
+	height: 120px;
+	margin: 10px;
+}
+.eatlisthlgt{
+	color: #ff4d00;
+}

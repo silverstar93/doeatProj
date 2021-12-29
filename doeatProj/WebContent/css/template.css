@@ -1,0 +1,57 @@
+@charset "UTF-8";
+#mainTop{
+/* 상단메뉴 디자인 */
+	width: 1000px;
+	left:50%;
+	margin-left: -500px;
+	position: fixed;
+	overflow: hidden;
+	z-index: 2;
+	top: 0;
+}
+.fixmain{
+	background-color: #FFBB00;
+	color: black;
+	font-family: 'Gothic A1', sans-serif;	
+}
+/* main & bottom 감싸고 있는 div */
+.bigMain{
+	position: absolute;
+	width: 1000px;
+	top: 55px;
+	overflow: hidden;	
+	left:50%;
+	margin-left: -500px;
+}
+/* main & bottom의 클래스 (상대 위치) */
+.main{
+	width: 1000px;
+	position: relative;
+}
+
+/* top 및 bottom <A> 태그 & 로그인창*/
+.intro{
+	color: #555555;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+/* 로그인창 추가 */
+.temptitle{
+	color: #FF4D00;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+/* 들어가있는경우 */
+.entitled{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+/* search div */
+#srch{
+	position: absolute;
+	bottom: 0px;
+}
+/* 모든 페이지 공통적용 */
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+}

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.mypgmenu{
+	background-color:#555555;	
+}
+.menutitle{
+	color: #FFBB00;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20;
+}
+.menuchked{
+	color: white;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20;
+}
+.pgres{
+
+	width:200px;
+	position: relative;
+	font-family: 'Noto Sans KR', sans-serif;
+	text-align: center;
+	height:100px;
+	margin: 5px;
+
+}
+.review{
+	color: #ff4d00;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.cover{
+	border-bottom: 1px solid #ff4d00;
+}
+.onyourright{
+	border-right: 1px solid #ff4d00;
+}
+.ptmg{
+	
+	color: #555555;
+	background-color: #FFBB00;
+	font-family: 'Noto Sans KR', sans-serif;
+	padding: 10px;
+	
+}
+#newreg{
+	
+	background: #555555;
+	color: #FFBB00;
+	
+}
+#accept{
+
+	color: #555555;
+	background: #FFBB00;
+
+}
+#manage{
+
+	background: #555555;
+	color: #FFBB00;
+
+}

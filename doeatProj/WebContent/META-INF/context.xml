@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource 
+	
+		name="doeat"
+		type="javax.sql.DataSource"
+		auth="Container"
+		factory="org.apache.commons.dbcp2.BasicDataSourceFactory"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost/doeat_db"
+		username="doeat"
+		password="123456"	
+
+	/>
+</Context>
